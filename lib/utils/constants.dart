@@ -3,20 +3,28 @@ import 'package:flutter/material.dart';
 const tempTextStyle = TextStyle(
   fontFamily: 'Spartan MB',
   fontSize: 100.0,
+  color: Colors.white,
+  decoration: TextDecoration.none,
 );
 
 const messageTextStyle = TextStyle(
   fontFamily: 'Spartan MB',
   fontSize: 60.0,
+  color: Colors.white,
+  decoration: TextDecoration.none,
 );
 
 const buttonTextStyle = TextStyle(
   fontSize: 30.0,
   fontFamily: 'Spartan MB',
+  color: Colors.white,
+  decoration: TextDecoration.none,
 );
 
 const conditionTextStyle = TextStyle(
   fontSize: 100.0,
+  color: Colors.white,
+  decoration: TextDecoration.none,
 );
 
 const textFieldInputDecoration = InputDecoration(

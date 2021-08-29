@@ -60,8 +60,11 @@ class _LocationScreenState extends State<LocationScreen> {
       constraints: BoxConstraints.expand(),
       child: SafeArea(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 TextButton(
                     onPressed: () async {
